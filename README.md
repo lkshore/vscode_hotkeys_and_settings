@@ -52,9 +52,10 @@ The `Settings Sync` plugin of VSCode has uploaded the follow json file to Github
 
 [2020-08-19] Setup VSCode on Ubuntu 18.04
 
-1) Download VSCode `.deb` file from [Link](https://code.visualstudio.com/docs/setup/linux)
+1) Download VSCode `.deb` file from this [Link](https://code.visualstudio.com/docs/setup/linux)
 2) Install the `.deb` file, either through Package Manager GUI or `sudo apt install .deb`
 3) Launch VSCode and install `Settings Sync` plugin.
-4) Authorize Github account in `Settings Sync` plugin.
-5) Key on `Ctrl + Alt + D` on Linux or `Ctrl + Opt + D` on Mac remoted Linux to download the VScode Gist configurations.
+4) Authorize Github account in `Settings Sync` plugin. Select the latest Gist file.
+5) Key stroke `Ctrl + Alt + D` on Linux or `Ctrl + Opt + D` on Mac remoted Linux to download the VScode Gist configurations.
 6) The Gist will install all other plugins and setup VSCode configurations.
+7) Add `vscode` plugin in `.zshrc`.
