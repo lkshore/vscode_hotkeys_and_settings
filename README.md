@@ -31,8 +31,12 @@ Cheat sheet of hotkeys and setting of my VSCode.
 Depending on the OS, the user settings file is located here:
 
 Windows `%APPDATA%\Code\User\settings.json`
+
 macOS `$HOME/Library/Application Support/Code/User/settings.json`
+
 Linux `$HOME/.config/Code/User/settings.json`
+
+
 
 
 The `Settings Sync` plugin of VSCode has uploaded the follow json file to Github gist.
@@ -59,3 +63,7 @@ The `Settings Sync` plugin of VSCode has uploaded the follow json file to Github
 5) Key stroke `Shift + Alt + D` on Linux or `Shift + Opt + D` on Mac remoted Linux to download the VScode Gist configurations.
 6) The Gist will install all other plugins and setup VSCode configurations.
 7) Add `vscode` plugin in `.zshrc`.
+
+[2020-08-27] One can use Vscode build-in settings sync to sync the settings now. 
+
+1) User will find `Settings Sync` in the `Manage` icon on the left bottom of the window.
