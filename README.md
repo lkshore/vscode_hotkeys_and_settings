@@ -48,7 +48,7 @@ The `Settings Sync` plugin of VSCode has uploaded the follow json file to Github
 * fontSize: changed to 16 in settings.json
 * lineHeight: changed to 19 in settings.json
 * added hotkey `cmd` + `h` in `keybindingsMac.json` 
-* added hotkey `cmd` + `j` in `keybindingsMac.json` 
+* added hotkey `cmd` + `l` in `keybindingsMac.json` 
 
 [2020-08-19] Setup VSCode on Ubuntu 18.04
 
@@ -56,6 +56,6 @@ The `Settings Sync` plugin of VSCode has uploaded the follow json file to Github
 2) Install the `.deb` file, either through Package Manager GUI or `sudo apt install .deb`
 3) Launch VSCode and install `Settings Sync` plugin.
 4) Authorize Github account in `Settings Sync` plugin. Select the latest Gist file.
-5) Key stroke `Ctrl + Alt + D` on Linux or `Ctrl + Opt + D` on Mac remoted Linux to download the VScode Gist configurations.
+5) Key stroke `Shift + Alt + D` on Linux or `Shift + Opt + D` on Mac remoted Linux to download the VScode Gist configurations.
 6) The Gist will install all other plugins and setup VSCode configurations.
 7) Add `vscode` plugin in `.zshrc`.
